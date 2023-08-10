@@ -177,28 +177,28 @@ VERSION  AUTHOR         DATE            Description
     const lightningEndpoint = 'https://loccitane--ccareqa.sandbox.my.site.com/loccitanecustomercare';
     const articlesDiv = document.querySelector("[data-lightning-out]");
     // The attributes that will be passed to the LWC component
-    const articlesGridAttributes = { brand: 'melvita', country: 'UK' };
-  /*
+    const articlesGridAttributes = { brand: 'loccitane', country: 'UK' };
+
     document.addEventListener('DOMContentLoaded', function () {
         const root = document.documentElement;
 
         function setBrandCSSVariable(brand) {
             if (brand === 'loccitane') {
-                root.style.setProperty('--fullUrl', 'https://loccitane--ccareqa.sandbox.my.salesforce.com/resource/LOccitane_Fonts/LOccitaneSans-Medium.woff');
+                root.style.setProperty('--fullUrl', 'https://loccitane--ccareqa.sandbox.my.site.com/loccitanecustomercare/resource/OSF_New_LOccitane_Fonts/LOccitaneSans-Medium.woff');
                 root.style.setProperty('--fontFormat', 'woff');
                 root.style.setProperty('--fontFamily', 'LOccitane Sans Medium');
                 const button = document.getElementById('buttonLabel');
                 button.classList.add('buttonLoccitane');
 
             } else if (brand === 'erborian') {
-                root.style.setProperty('--fullUrl', 'https://loccitane--ccareqa.sandbox.my.salesforce.com/resource/HKGrotesk_Fonts/HKGrotesk-Medium.otf');
+                root.style.setProperty('--fullUrl', 'https://loccitane--ccareqa.sandbox.my.site.com/loccitanecustomercare/resource/OSF_New_HKGrotesk_Fonts/HKGrotesk-Medium.otf');
                 root.style.setProperty('--fontFormat', 'opentype');
                 root.style.setProperty('--fontFamily', 'HK Grotesk Medium');
 
                 const button = document.getElementById('buttonLabel');
                 button.classList.add('buttonErborian');
             } else if (brand === 'melvita') {
-                root.style.setProperty('--fullUrl', 'https://loccitane--ccareqa.sandbox.my.salesforce.com/resource/Futura_Fonts/FuturaStdMedium.otf');
+                root.style.setProperty('--fullUrl', 'https://loccitane--ccareqa.sandbox.my.site.com/loccitanecustomercare/resource/OSF_New_Futura_Fonts/FuturaStdMedium.otf');
                 root.style.setProperty('--fontFormat', 'opentype');
                 root.style.setProperty('--fontFamily', 'Futura Std Medium');
 
@@ -210,7 +210,7 @@ VERSION  AUTHOR         DATE            Description
         const brand = articlesGridAttributes.brand;
 
         setBrandCSSVariable(brand);
-    }); */
+    });
 
     $Lightning.use(
         appName,
